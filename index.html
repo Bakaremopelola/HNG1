@@ -10,19 +10,30 @@
 <body>
     <header>
         <h1>My Tech Goals for the Next 2 Years</h1>
+        <div id="current-time">
+            <p data-testid="currentTimeUTC">UTC Time: 
+                <span id="utc-time"></span>
+            </p>
+            <p data-testid="currentDay">Day of the Week: 
+                <span id="day-of-week"></span>
+            </p>
+        </div>
     </header>
     <main>
         <section id="profile">
             <h2>Profile</h2>
-            <div><p data-testid="slackDisplayName">Slack Name: <span style="font-weight: bold; text-transform: uppercase;">Bakare Mopelola</span></p>
-            <p data-testid="slackEmail">Slack Email:  <span style="font-weight: bold;">olorimaikudi@gmail.com</span></p></div>
-            <img src="./assets/mopelola.jpg" alt="Slack Profile Picture" data-test-id="slackProfilePicture">
+            <div>
+                <p data-testid="slackDisplayName">Slack Name: 
+                    <span style="font-weight: bold; text-transform: uppercase;">Bakare Mopelola</span>
+                </p>
+                <p data-testid="slackEmail">Slack Email:  
+                    <span style="font-weight: bold;">olorimaikudi@gmail.com</span>
+                </p>
+            </div>
+            <p>"Hello, I'm Bakare Mopelola Hauwa, a passionate and dedicated software developer with a zeal for crafting innovative solutions. I design, develop, and deploy cutting-edge applications that exceed expectations. My expertise is mainly in frontend development, with a special interest in React. I'm constantly learning and exploring new technologies to stay ahead in the ever-evolving tech landscape. I'm excited to share my knowledge and experiences and also learn from you, and I look forward to collaborating on exciting projects that push the boundaries of what's possible!"</p>
+            <img src="./assets/mopelola.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
         </section>
-        <section id="current-time">
-            <h2>Current Time</h2>
-            <div><p data-testid="currentTimeUTC">UTC Time: <span id="utc-time"></span></p>
-            <p data-testid="currentDay">Day of the Week: <span id="day-of-week"></span></p></div>
-        </section>
+
         <section id="goals">
             <h2>My Goals</h2>
             <ul>
@@ -34,6 +45,7 @@
                 <li>Continuous Learning</li>
             </ul>
         </section>
+
         <section id="links">
             <h2>Useful Links</h2>
             <ul>
